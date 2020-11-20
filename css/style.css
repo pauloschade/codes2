@@ -1,0 +1,61 @@
+
+
+
+/* CULINÁRIA */
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-self: center;
+    height: 100%;
+    background-color: white;
+}
+
+.culinaria_top{
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-between;
+    background-color: #f76f24;
+    top: 0;
+    height: 14rem;
+}
+
+.categoria{
+    display: flex;
+    margin-top: 3rem;
+    font-size: 2rem ;
+}
+
+.help{
+    display: flex;
+    margin: 0.5rem;
+}
+
+main{
+    height: 100%;
+}
+
+.opcoes{
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.2);
+    border-top: 0.2rem solid #f6f5fa;
+    border-bottom: 0.2rem solid #f6f5fa;
+    border-radius: 0.2rem;
+    /*border: 0.2rem solid black;*/
+    padding: 0.5rem;
+}
