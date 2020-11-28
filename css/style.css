@@ -1,5 +1,20 @@
+/*remove underline*/
+a:link {
+    text-decoration: none;
+  }
 
 
+
+
+
+.inicial_top{
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-between;
+    background-color: #f76f24;
+    top: 0;
+    height: 14rem;
+}
 
 /* CULINÁRIA */
 html {
@@ -20,7 +35,7 @@ body{
     display: flex;
     flex-grow: 0;
     justify-content: space-between;
-    background-color: #f76f24;
+    background-color: #ff0f6b;
     top: 0;
     height: 14rem;
 }
@@ -58,4 +73,29 @@ main{
     border-radius: 0.2rem;
     /*border: 0.2rem solid black;*/
     padding: 0.5rem;
+    color : black;
+}
+.ing{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.2);
+    border-top: 0.2rem solid #f6f5fa;
+    border-bottom: 0.2rem solid #f6f5fa;
+    border-radius: 0.2rem;
+    /*border: 0.2rem solid black;*/
+    padding: 0.5rem;
+    color : black;
+}
+/*Sub-listas*/
+.lista{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.sub-lista{
+    display: none;
+    flex-direction: column;
+    margin: 1rem;
 }
