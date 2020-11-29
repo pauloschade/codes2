@@ -6,7 +6,7 @@ a:link {
 
 
 
-
+/*Tela Inicial*/
 .inicial_top{
     display: flex;
     flex-grow: 0;
@@ -98,4 +98,11 @@ main{
     display: none;
     flex-direction: column;
     margin: 1rem;
+}
+
+.foto{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
 }
