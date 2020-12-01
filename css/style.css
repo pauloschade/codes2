@@ -155,3 +155,20 @@ main{
     top: 0;
     height: 14rem;
 }
+
+
+/*extra video*/
+.tela_video{
+    position: fixed;
+    display: none;
+    bottom: 0rem;
+}
+
+.video_disp{
+    position: relative;
+}
+
+.fechar{
+    position: absolute;
+    top:2rem;
+}
